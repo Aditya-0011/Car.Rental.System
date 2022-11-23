@@ -9,7 +9,7 @@ class sqlite
         Connection c = null;
         try
         {
-            String url = "jdbc:sqlite:D:/Work/Java/Project/Database.sqlite";
+            String url = "jdbc:sqlite:Path of your database.";
             c = DriverManager.getConnection(url);
             //System.out.println("Connection to SQLite has been established.");
             c.setAutoCommit(false);
