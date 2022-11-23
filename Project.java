@@ -1,7 +1,5 @@
 import java.util.*;
 import org.sqlite.SQLiteException;
-
-import java.io.IOException;
 import java.sql.*;
 import java.time.LocalDate;
 class sqlite
